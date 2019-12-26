@@ -1,0 +1,214 @@
+.blogList {
+    width:98%;
+    min-height:100vh;
+    height:auto;
+    margin-top:0.5%;
+    position:relative;
+    .title {
+      font-size:17px;
+      font-weight: bold;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:100%;
+      height:40px;
+      border-bottom:1px dashed #E0E0E0;
+    }
+    .content {
+      width:100%;
+      min-height:70vh;
+      height:auto;
+      margin:35px auto;
+        .blogitem {
+          width:100%;
+          height:20%;
+          margin-top:2%;
+          border-bottom:1px solid #CACACA;
+            .blogtitle {
+              width:100%;
+              height:20%;
+              font-size:17px;
+              font-weight:bold;
+            }
+            .blogbriefcontent {
+              width:100%;
+              height:20%;
+              line-height:20px;
+              color:gray;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              font-family: 'Microsoft Yahei';
+            }
+            .operation {
+              width:100%;
+              min-height:10px;
+              height:auto;
+              padding-bottom: 13px;
+              display: flex;
+              flex-wrap: wrap;
+                .delete {
+                  width:60px;
+                  height:29px;
+                  margin-left:20px;
+                  text-align: center;
+                  line-height:29px;
+                  font-size:14px;
+                  color:red;
+                  border-radius: 5px;
+                  border:1px dashed #000;
+                }  
+                .Edit {
+                  width:60px;
+                  height:29px;
+                  text-align: center;
+                  line-height: 29px;
+                  font-size:14px;
+                  color:blue;
+                  border-radius: 5px;
+                  margin-left:3%;
+                  cursor: pointer;
+                  border:1px dashed #000;
+                 }  
+                  .time {
+                    width:110px;
+                    height:30px;
+                    display: flex;
+                    margin-left:3%;
+                    .timeicon {
+                      margin-top:10px;
+                    }
+                    p {
+                        margin-left:10px;
+                        line-height: 33px;
+                    }
+                  } 
+                  .eye {
+                    min-width:72px;
+                    width:auto;
+                    height:30px;
+                    margin-left:1%;
+                    display: flex;
+                    .eyeicon {
+                        width:30px;
+                        height:20px;
+                        font-size:15px;
+                        margin-top:9px;
+                    }
+                    p {
+                      margin-top:5px;
+                      margin-left:9px;
+                    }
+                  }  
+                  .quote {
+                    width:20px;
+                    min-height:30px;
+                    height:auto;
+                    margin-left:3%;
+                    .quoteicon {
+                      font-size:16px;
+                      margin-top:8px;
+                    } 
+                  }
+                  .quoteList {
+                    min-width:10px;
+                    width:auto;
+                    height:27px;
+                    margin-left:10px;
+                    margin-top:3px;
+                    text-align: center;
+                      .tag {
+                        width:100%;
+                        height:100%;
+                        padding-right:12px;
+                        padding-left:12px;
+                        line-height:25px;
+                        border-radius: 7px;
+                        font-size:14px;
+                      }
+                  }
+                  .app {
+                    width:20px;
+                    margin-left:6%;
+                    margin-top:0.5px;
+                    display: flex;   
+                    .appstoreicon {
+                      font-size:16px;
+                      margin-top:8px; 
+                    }  
+                  }
+                  .appList {
+                    min-width:50px;
+                    width:auto;
+                    height:28px;
+                    margin-left:10px;
+                    margin-top:3px;
+                    text-align: center;
+                    border-radius: 7px;  
+                    .tag {
+                      width:100%;
+                      height:100%;
+                      padding-right:12px;
+                      padding-left:12px;
+                      line-height:25px;
+                      border-radius: 7px;
+                      font-size:14px;
+                    }                
+                  }  
+              }
+          }
+      .page {
+        display: flex;
+        width:60%;
+        margin:5% auto;
+      }    
+    }
+  }
+  .Deletemodal {
+    p {
+      font-size:18px;
+      margin-top:2%;
+    }
+  }
+  .modifymodal {
+    .content {
+      width:100%;
+      height:70vh;
+      display: flex;
+      .ModifybasicInfo {
+        width:50%;
+        height:100%;
+        .title {
+          display: block;
+          width:75%;
+          margin:6% auto;
+        }
+        .treeSelect {
+          display: block;
+          width:75%;
+          margin:0 auto;
+        }
+        .kind {
+          width:75%;
+          display: block;
+          margin:5% auto;
+        }
+        .brief {
+          width:75%;
+          display: block;
+          margin:5% auto;
+        }
+      }
+      .Edit {
+        width:50%;
+        height:100%;
+        .Markdown {
+          width:80%;
+          display: block;
+          margin:6% auto;
+        }
+      }
+    }    
+  }

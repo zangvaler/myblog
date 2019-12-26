@@ -1,0 +1,41 @@
+
+.bread-div{
+    padding-left: 10px;
+    background: rgb(219, 236, 255);
+}
+.ant-breadcrumb{
+    height: 50px;
+    line-height: 50px;
+}
+.ant-list-item{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.list-title{
+    font-size:1.3rem;
+    color: #1e90ff;
+    padding: 0 0.5rem;
+}
+.list-context{
+    color:#777;
+    padding:.5rem;
+}
+.list-icon{
+    padding:.5rem 0;
+    color:#AAA;
+}
+.list-icon span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.look-more a{
+    padding-right: 30px;
+    font-size: 14px;
+}
+.look-more a i{
+    padding-right: 6px;
+}
+.look-more {
+   
+    text-align: right;
+}
