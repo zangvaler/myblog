@@ -13,7 +13,7 @@ services:
   app-pm3:
     container_name: app-pm3
     #构建容器
-    build: ./node_ser
+    build: ./service
     ports:
       - "3000:3000"
   nginx:

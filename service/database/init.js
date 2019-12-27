@@ -3,7 +3,7 @@
 
 
 const mongoose = require('mongoose')
-const db = "mongodb://localhost:27017/blog-db"
+const db = "mongodb://mongo/blog-db"
 const glob = require('glob')
 const { resolve } = require('path')
 // glob：node的glob模块允许你使用 * 等符号，来写一个glob规则，像在shell里一样，获取匹配对应规则文件。
