@@ -10,8 +10,8 @@ services:
     restart: always
     ports:
       - 8000:8081
-  app-pm3:
-    container_name: app-pm3
+  app-pm2:
+    container_name: app-pm2
     #构建容器
     build: ./service
     ports:

@@ -1,0 +1,29 @@
+{
+    "deploy": {
+        "packages": [
+            {
+                "files": [
+                    "**/*",
+                ],
+                "exclude": [
+                    "node_modules/**",
+                    ".git/**",
+                    ".vscode/**",
+                    "**/node_modules/**",
+                ],
+                "deployOnSave": false
+            }
+        ],
+        "targets": [
+            {
+                "type": "sftp",
+                "name": "AliyunServer",
+                "dir": "/root/source/myblog",
+                "host": "118.190.104.43",
+                "port": 22,
+                "user": "root",
+                "privateKey": "/Users/zangval/.ssh/my-pwd.pem"
+            }
+        ],
+    },
+}

@@ -1,4 +1,4 @@
-const SERVER = 'http://localhost:3000/api'
+const SERVER = 'http://118.190.104.43:3000/api'
 
 export const statusCode = {
     OK: 200
@@ -24,5 +24,5 @@ export const apiURL = {
 
 
 export const upUrl = {
-    urlImg :"http://localhost:3000/api/uploadImg/saveImg"
+    urlImg :"http://118.190.104.43:3000/api/uploadImg/saveImg"
 }
